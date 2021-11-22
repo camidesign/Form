@@ -99,10 +99,13 @@ fieldset.group .camp{
 	background: #CFC6FF;
 	border: 0;
 	margin-bottom: 1em;
+	margin-top: 10%;
 	color: #170723;
 	font-weight: bold;
 	padding: 0.2em 0.6em;
-	float: right;
+	display:block;
+	margin: 10% auto;
+
 }
 
 .button:hover{
@@ -110,6 +113,8 @@ fieldset.group .camp{
 
 }
 
-.button, select{}
+.button, select{
+	cursor: pointer;
+}
 
 
