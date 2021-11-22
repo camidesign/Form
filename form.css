@@ -5,16 +5,104 @@
 
 #title{
 	font-family: Apercu;
-	color: #A99AF3;
+	color: #DCD6FF;
 	margin-left: 7%;
 }
 
 #subtitle{
 	font-family: Apercu;
-	color: #A99AF3;
+	color: #DCD6FF;
 	margin-left: 10%;
+}
+
+
+#check{
+	display: inline-blockl;
 }
 
 fieldset{
 	border: 0;
 }
+
+body{
+	background-color: #170723;
+	font-family: Apercu;
+	font-size: 1em;
+	color: #A99AF3;
+	margin-left: 36%;
+	margin-top: 2%;
+	justify-content: center;
+}
+
+input, select, textarea, button{
+	font-family: Apercu;
+	font-size: 1em;
+	color:#A99AF3;
+	border: 1.5px solid #A99AF3;
+	background-color: rgba(207,198,255,0.15);
+	border-radius: 7px;
+}
+
+.group:before, .group:after {
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+.camp{
+	margin-bottom: 1em;
+}
+
+.camp label{
+	margin-bottom: 0.2em;
+	color: "A99AF3";
+	display: block;
+}
+
+fieldset.group .camp{
+	float: left;
+	margin-right: 1em;
+}
+
+.camp input[type="text"], .camp input[type="email"], .camp select, .camp textarea{
+	padding: 0.2em;
+	border: 1.5px solid #A99AF3;
+	background-color: rgba(207,198,255,0.15);
+	display: block;
+}
+
+.camp select option{
+	padding-right: 1em;
+}
+
+.camp input:focus, .camp select:focus, .camp textarea:focus{
+	background: rgba(191,240,255,0.29);
+	border: 1.5px solid #BFF0FF;
+}
+
+.button{
+	font-size: 1.2em;
+	background: #CFC6FF;
+	border: 0;
+	margin-bottom: 1em;
+	color: #170723;
+	font-weight: bold;
+	padding: 0.2em 0.6em;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.button:hover{
+	background: #BFF0FF;
+
+}
+
+.button, select{
+	cursor: pointer;
+}
+
