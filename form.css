@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#title{
+	font-family: Apercu;
+	color: #A99AF3;
+	margin-left: 7%;
+}
+
+#subtitle{
+	font-family: Apercu;
+	color: #A99AF3;
+	margin-left: 10%;
+}
+
+fieldset{
+	border: 0;
+}
