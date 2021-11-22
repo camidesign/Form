@@ -8,13 +8,13 @@
 <body>
 
 	<div>
-		<h1>Registration for developers</h1>
-		<p>Fill out your information</p>
+		<h1 id="title">Registration for developers</h1>
+		<p id="subtitle">Fill out your information</p>
 		<br>
 	</div>
 
 	<form>
-		<fieldset>
+		<fieldset class="group">
 			<div>
 				<label>Name</label>
 				<input type="text" name="name" id="name">
@@ -27,10 +27,62 @@
 
 		</fieldset>
 
-		<div>
+		<div class="camp">
 			<label>Email</label>
 			<input type="email" name="email" id="email">
 		</div>
+
+		<div class="camp">
+			<label>Which type of developer are you?</label>
+			<label>
+				<input type="radio" name="devweb" value="frontend" checked>Front-end
+			</label>
+			<label>
+				<input type="radio" name="devweb" value="backend">Back-end
+			</label>
+			<label>
+				<input type="radio" name="devweb" value="fullstack">Fullstack
+			</label>
+		</div>
+
+		<div class="camp">
+			<label>Seniority level</label>
+			<select id="senioritylevel">
+				<option selected disabled value="">Select</option>
+				<option>Junior</option>
+				<option>Middle</option>
+				<option>Senior</option>
+			</select>
+		</div>
+
+		<fieldset class="group">
+			<div>
+				<label>Select the languages you use:</label><br><br>
+				<input type="checkbox" name="language1" id="language1" value="HTML">
+				<label for="language1">HTML</label>
+				<input type="checkbox" name="language2" id="language2" value="CSS">
+				<label for="language2">CSS</label>
+				<input type="checkbox" name="language3" id="language3" value="Javascript">
+				<label for="language3">Javascript</label>
+				<input type="checkbox" name="language4" id="language4" value="PHP">
+				<label for="language4">PHP</label>
+				<input type="checkbox" name="language5" id="language5" value="C#">
+				<label for="language5">C#</label>
+				<input type="checkbox" name="language6" id="language6" value="Python">
+				<label for="language6">Python</label>
+				<input type="checkbox" name="language7" id="language7" value="Java">
+				<label for="language7">Java</label>
+			</div>
+		</fieldset>
+
+		<div class="camp">
+			<br>
+			<label>Tell us a bit about your experience</label>
+			<textarea rows="6" style="width: 26em" id="experience" name="experience"></textarea>
+		</div>
+
+		<button type="submit">Submit</button>
+
 	</form>
 
 </body>
