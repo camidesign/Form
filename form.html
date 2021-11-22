@@ -16,24 +16,24 @@
 	<form>
 		<fieldset class="group">
 			<div>
-				<label>Name</label>
-				<input type="text" name="name" id="name">
+				<label for="name"><strong>Name</strong></label>
+				<input type="text" name="name" id="name" required>
 			</div>
 
 			<div>
-				<label>Surname</label>
-				<input type="text" name="surname" id="surname">
+				<label for="surname"><strong>Surname</strong></label>
+				<input type="text" name="surname" id="surname" required>
 			</div>
 
 		</fieldset>
 
 		<div class="camp">
-			<label>Email</label>
-			<input type="email" name="email" id="email">
+			<label for="email"><strong>Email</strong></label>
+			<input type="email" name="email" id="email" required>
 		</div>
 
 		<div class="camp">
-			<label>Which type of developer are you?</label>
+			<label><strong>Which type of developer are you?</strong></label>
 			<label>
 				<input type="radio" name="devweb" value="frontend" checked>Front-end
 			</label>
@@ -46,7 +46,7 @@
 		</div>
 
 		<div class="camp">
-			<label>Seniority level</label>
+			<label for="senioritylevel"><strong>Seniority level</strong></label>
 			<select id="senioritylevel">
 				<option selected disabled value="">Select</option>
 				<option>Junior</option>
@@ -57,7 +57,7 @@
 
 		<fieldset class="group">
 			<div>
-				<label>Select the languages you use:</label><br><br>
+				<label><strong>Select the languages you use:</strong></label><br><br>
 				<input type="checkbox" name="language1" id="language1" value="HTML">
 				<label for="language1">HTML</label>
 				<input type="checkbox" name="language2" id="language2" value="CSS">
@@ -77,11 +77,11 @@
 
 		<div class="camp">
 			<br>
-			<label>Tell us a bit about your experience</label>
+			<label><strong>Tell us a bit about your experience</strong></label>
 			<textarea rows="6" style="width: 26em" id="experience" name="experience"></textarea>
 		</div>
 
-		<button type="submit">Submit</button>
+		<button class="button" type="submit">Submit</button>
 
 	</form>
 
